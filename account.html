@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Account</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="ezz.png" width="30px" height="30px"></a> |
+        <a href="index.html">HOME</a> |
+        <a href="account.html">ACCOUNT</a> |
+        <a href="identity.html">PERSONAL IDENTITY</a> |
+        <a href="destination.html">DESTINATION</a>
+    </nav>
+
+    <h2>Please, register for an account first, fill the form down below.</h2>
+    <fieldset>
+        <legend>Creating Account</legend>
+        <form>
+            <table>
+                <tr><td>Email: </td><td><input type="email" 
+                    required></td></tr>
+                <tr><td>Password: </td><td><input type="password" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" 
+                    required></td></tr>
+                <tr><td>Phone Number: </td><td><input type="text" 
+                    pattern="[0-9]{10,}" 
+                    title="Phone number with 10 digits or more"
+                    required></td></tr>
+                <tr><td></td><td><a href="identity.html"><input type="submit" value="Submit and Next"></a>
+                    </td></tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

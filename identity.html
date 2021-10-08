@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Identity</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="ezz.png" width="30px" height="30px"></a> |
+        <a href="index.html">HOME</a> |
+        <a href="account.html">ACCOUNT</a> |
+        <a href="identity.html">PERSONAL IDENTITY</a> |
+        <a href="destination.html">DESTINATION</a>
+    </nav>
+
+    <h3>Before we reserving your tickets, please read the rules and fill the form down below.</h3>
+    <h2>PLEASE READ THE RULES CAREFULLY!</h2>
+        <ul>
+            <li>You need at least 18 years old to reserve a tickets.</li>
+            <li>You must have an identification card.</li>
+            <li>We not responsible for any late, things lost, and customer carelessness.</li>
+        </ul>
+    <p>If you aggre please check this checkbox <span><input type="checkbox" name="check" required></span>, then fill the form down below.</p>
+    
+    <fieldset>
+        <legend>Identity</legend>
+    <form>
+        <table>
+            <tr><td>Full name:</td><td><input type="text" required></td></tr>
+            <tr><td>Age:</td><td><select name="age" required>
+                <option value="under18">Under 18</option>
+                <option value="more18">More than 18</option>
+            </select></td></tr>
+            <tr><td>Sex:</td><td><input type="radio" name="sex" value="female">Female</td></tr>
+            <tr><td></td><td><input type="radio" name="sex" value="male">Male</td></tr>
+            <tr><td>Scanned Passport:</td><td><input type="file" required></td></tr>
+            <tr><td><button><a href="account.html">To Previous Page</a></button></td>
+                <td><a href="destination.html"><input type="submit" value="Submit and Next"></a></td></tr>
+        </table>
+    </form>
+    </fieldset>
+</body>
+</html>
